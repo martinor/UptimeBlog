@@ -1,0 +1,259 @@
+# Test data
+
+User(martin):
+    email:          martin@hot.ee
+    password:       secret
+    fullname:       Martin
+    isAdmin:        true
+
+User(bob):
+    email:          bob@gmail.com
+    password:       secret
+    fullname:       Bob
+    isAdmin:        true
+    
+User(jeff):
+    email:          jeff@gmail.com
+    password:       secret
+    fullname:       Jeff    
+    
+User(juku):
+    email:          juku@hot.ee
+    password:       secret
+    fullname:       Juku
+
+User(paul):
+    email:          paul@gmail.com
+    password:       secret
+    fullname:       Paul    
+    
+Tag(play):
+    name:           Play
+    
+Tag(architecture):
+    name:           Architecture
+    
+Tag(test):
+    name:           Test
+    
+Tag(mvc):
+    name:           MVC    
+
+Post(14thMartinPost):
+    title:          14th Post
+    postedAt:       2013-05-25
+    author:         martin
+    tags:           
+                    - play
+                    - architecture
+    content:        >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium viverra justo, eu sagittis orci tincidunt et. Nullam a aliquet erat. Nullam pharetra eleifend ipsum, in faucibus nunc semper vitae. Aenean fringilla aliquam tortor id euismod. Quisque tincidunt neque rutrum lorem egestas sit amet tempus ligula varius. Donec eu magna eros, a rhoncus orci. Nunc tincidunt sem eros, ut tincidunt sapien. Duis dui ante, faucibus laoreet vestibulum in, ornare ut lectus. Ut eu quam tellus. Aenean lectus diam, gravida sed eleifend ut, mattis vitae augue. Proin sit amet mauris nibh, id consequat mauris. Vivamus facilisis justo id nibh iaculis aliquet. Mauris ut ullamcorper dolor.
+                        
+                    Donec aliquet ante et nulla congue iaculis. Suspendisse nec sapien non turpis sollicitudin mollis auctor ultricies nibh. Fusce dictum elementum mattis. Aliquam erat volutpat. Mauris sed ipsum sit amet sapien volutpat mattis condimentum ut sapien. Suspendisse potenti. Nulla vitae purus lorem.
+
+Post(13thMartinPost):
+    title:          13th Post
+    postedAt:       2013-05-24
+    author:         martin
+    tags:           
+                    - play
+                    - architecture
+    content:        >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium viverra justo, eu sagittis orci tincidunt et. Nullam a aliquet erat. Nullam pharetra eleifend ipsum, in faucibus nunc semper vitae. Aenean fringilla aliquam tortor id euismod. Quisque tincidunt neque rutrum lorem egestas sit amet tempus ligula varius. Donec eu magna eros, a rhoncus orci. Nunc tincidunt sem eros, ut tincidunt sapien. Duis dui ante, faucibus laoreet vestibulum in, ornare ut lectus. Ut eu quam tellus. Aenean lectus diam, gravida sed eleifend ut, mattis vitae augue. Proin sit amet mauris nibh, id consequat mauris. Vivamus facilisis justo id nibh iaculis aliquet. Mauris ut ullamcorper dolor.
+                        
+                    Donec aliquet ante et nulla congue iaculis. Suspendisse nec sapien non turpis sollicitudin mollis auctor ultricies nibh. Fusce dictum elementum mattis. Aliquam erat volutpat. Mauris sed ipsum sit amet sapien volutpat mattis condimentum ut sapien. Suspendisse potenti. Nulla vitae purus lorem.
+
+Post(12thMartinPost):
+    title:          12th Post
+    postedAt:       2013-05-23
+    author:         martin
+    tags:           
+                    - play
+                    - architecture
+    content:        >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium viverra justo, eu sagittis orci tincidunt et. Nullam a aliquet erat. Nullam pharetra eleifend ipsum, in faucibus nunc semper vitae. Aenean fringilla aliquam tortor id euismod. Quisque tincidunt neque rutrum lorem egestas sit amet tempus ligula varius. Donec eu magna eros, a rhoncus orci. Nunc tincidunt sem eros, ut tincidunt sapien. Duis dui ante, faucibus laoreet vestibulum in, ornare ut lectus. Ut eu quam tellus. Aenean lectus diam, gravida sed eleifend ut, mattis vitae augue. Proin sit amet mauris nibh, id consequat mauris. Vivamus facilisis justo id nibh iaculis aliquet. Mauris ut ullamcorper dolor.
+                        
+                    Donec aliquet ante et nulla congue iaculis. Suspendisse nec sapien non turpis sollicitudin mollis auctor ultricies nibh. Fusce dictum elementum mattis. Aliquam erat volutpat. Mauris sed ipsum sit amet sapien volutpat mattis condimentum ut sapien. Suspendisse potenti. Nulla vitae purus lorem.
+
+Post(11thMartinPost):
+    title:          11th Post
+    postedAt:       2013-05-22
+    author:         martin
+    tags:           
+                    - play
+                    - architecture
+    content:        >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium viverra justo, eu sagittis orci tincidunt et. Nullam a aliquet erat. Nullam pharetra eleifend ipsum, in faucibus nunc semper vitae. Aenean fringilla aliquam tortor id euismod. Quisque tincidunt neque rutrum lorem egestas sit amet tempus ligula varius. Donec eu magna eros, a rhoncus orci. Nunc tincidunt sem eros, ut tincidunt sapien. Duis dui ante, faucibus laoreet vestibulum in, ornare ut lectus. Ut eu quam tellus. Aenean lectus diam, gravida sed eleifend ut, mattis vitae augue. Proin sit amet mauris nibh, id consequat mauris. Vivamus facilisis justo id nibh iaculis aliquet. Mauris ut ullamcorper dolor.
+                        
+                    Donec aliquet ante et nulla congue iaculis. Suspendisse nec sapien non turpis sollicitudin mollis auctor ultricies nibh. Fusce dictum elementum mattis. Aliquam erat volutpat. Mauris sed ipsum sit amet sapien volutpat mattis condimentum ut sapien. Suspendisse potenti. Nulla vitae purus lorem.
+
+Post(10thMartinPost):
+    title:          10th Post
+    postedAt:       2013-05-21
+    author:         martin
+    tags:           
+                    - play
+                    - architecture
+    content:        >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium viverra justo, eu sagittis orci tincidunt et. Nullam a aliquet erat. Nullam pharetra eleifend ipsum, in faucibus nunc semper vitae. Aenean fringilla aliquam tortor id euismod. Quisque tincidunt neque rutrum lorem egestas sit amet tempus ligula varius. Donec eu magna eros, a rhoncus orci. Nunc tincidunt sem eros, ut tincidunt sapien. Duis dui ante, faucibus laoreet vestibulum in, ornare ut lectus. Ut eu quam tellus. Aenean lectus diam, gravida sed eleifend ut, mattis vitae augue. Proin sit amet mauris nibh, id consequat mauris. Vivamus facilisis justo id nibh iaculis aliquet. Mauris ut ullamcorper dolor.
+                        
+                    Donec aliquet ante et nulla congue iaculis. Suspendisse nec sapien non turpis sollicitudin mollis auctor ultricies nibh. Fusce dictum elementum mattis. Aliquam erat volutpat. Mauris sed ipsum sit amet sapien volutpat mattis condimentum ut sapien. Suspendisse potenti. Nulla vitae purus lorem.
+
+Post(9thMartinPost):
+    title:          9th Post
+    postedAt:       2013-05-20
+    author:         martin
+    tags:           
+                    - play
+                    - architecture
+    content:        >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium viverra justo, eu sagittis orci tincidunt et. Nullam a aliquet erat. Nullam pharetra eleifend ipsum, in faucibus nunc semper vitae. Aenean fringilla aliquam tortor id euismod. Quisque tincidunt neque rutrum lorem egestas sit amet tempus ligula varius. Donec eu magna eros, a rhoncus orci. Nunc tincidunt sem eros, ut tincidunt sapien. Duis dui ante, faucibus laoreet vestibulum in, ornare ut lectus. Ut eu quam tellus. Aenean lectus diam, gravida sed eleifend ut, mattis vitae augue. Proin sit amet mauris nibh, id consequat mauris. Vivamus facilisis justo id nibh iaculis aliquet. Mauris ut ullamcorper dolor.
+                        
+                    Donec aliquet ante et nulla congue iaculis. Suspendisse nec sapien non turpis sollicitudin mollis auctor ultricies nibh. Fusce dictum elementum mattis. Aliquam erat volutpat. Mauris sed ipsum sit amet sapien volutpat mattis condimentum ut sapien. Suspendisse potenti. Nulla vitae purus lorem.
+
+Post(8thMartinPost):
+    title:          8th Post
+    postedAt:       2013-05-19
+    author:         martin
+    tags:           
+                    - play
+                    - architecture
+    content:        >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium viverra justo, eu sagittis orci tincidunt et. Nullam a aliquet erat. Nullam pharetra eleifend ipsum, in faucibus nunc semper vitae. Aenean fringilla aliquam tortor id euismod. Quisque tincidunt neque rutrum lorem egestas sit amet tempus ligula varius. Donec eu magna eros, a rhoncus orci. Nunc tincidunt sem eros, ut tincidunt sapien. Duis dui ante, faucibus laoreet vestibulum in, ornare ut lectus. Ut eu quam tellus. Aenean lectus diam, gravida sed eleifend ut, mattis vitae augue. Proin sit amet mauris nibh, id consequat mauris. Vivamus facilisis justo id nibh iaculis aliquet. Mauris ut ullamcorper dolor.
+                        
+                    Donec aliquet ante et nulla congue iaculis. Suspendisse nec sapien non turpis sollicitudin mollis auctor ultricies nibh. Fusce dictum elementum mattis. Aliquam erat volutpat. Mauris sed ipsum sit amet sapien volutpat mattis condimentum ut sapien. Suspendisse potenti. Nulla vitae purus lorem.
+
+Post(7thMartinPost):
+    title:          7th Post
+    postedAt:       2013-05-18
+    author:         martin
+    tags:           
+                    - play
+                    - architecture
+    content:        >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium viverra justo, eu sagittis orci tincidunt et. Nullam a aliquet erat. Nullam pharetra eleifend ipsum, in faucibus nunc semper vitae. Aenean fringilla aliquam tortor id euismod. Quisque tincidunt neque rutrum lorem egestas sit amet tempus ligula varius. Donec eu magna eros, a rhoncus orci. Nunc tincidunt sem eros, ut tincidunt sapien. Duis dui ante, faucibus laoreet vestibulum in, ornare ut lectus. Ut eu quam tellus. Aenean lectus diam, gravida sed eleifend ut, mattis vitae augue. Proin sit amet mauris nibh, id consequat mauris. Vivamus facilisis justo id nibh iaculis aliquet. Mauris ut ullamcorper dolor.
+                        
+                    Donec aliquet ante et nulla congue iaculis. Suspendisse nec sapien non turpis sollicitudin mollis auctor ultricies nibh. Fusce dictum elementum mattis. Aliquam erat volutpat. Mauris sed ipsum sit amet sapien volutpat mattis condimentum ut sapien. Suspendisse potenti. Nulla vitae purus lorem.
+
+Post(6thMartinPost):
+    title:          6th Post
+    postedAt:       2013-05-17
+    author:         martin
+    tags:           
+                    - play
+                    - architecture
+    content:        >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium viverra justo, eu sagittis orci tincidunt et. Nullam a aliquet erat. Nullam pharetra eleifend ipsum, in faucibus nunc semper vitae. Aenean fringilla aliquam tortor id euismod. Quisque tincidunt neque rutrum lorem egestas sit amet tempus ligula varius. Donec eu magna eros, a rhoncus orci. Nunc tincidunt sem eros, ut tincidunt sapien. Duis dui ante, faucibus laoreet vestibulum in, ornare ut lectus. Ut eu quam tellus. Aenean lectus diam, gravida sed eleifend ut, mattis vitae augue. Proin sit amet mauris nibh, id consequat mauris. Vivamus facilisis justo id nibh iaculis aliquet. Mauris ut ullamcorper dolor.
+                        
+                    Donec aliquet ante et nulla congue iaculis. Suspendisse nec sapien non turpis sollicitudin mollis auctor ultricies nibh. Fusce dictum elementum mattis. Aliquam erat volutpat. Mauris sed ipsum sit amet sapien volutpat mattis condimentum ut sapien. Suspendisse potenti. Nulla vitae purus lorem.
+
+Post(5thMartinPost):
+    title:          5th Post
+    postedAt:       2013-05-16
+    author:         martin
+    tags:           
+                    - play
+                    - architecture
+    content:        >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium viverra justo, eu sagittis orci tincidunt et. Nullam a aliquet erat. Nullam pharetra eleifend ipsum, in faucibus nunc semper vitae. Aenean fringilla aliquam tortor id euismod. Quisque tincidunt neque rutrum lorem egestas sit amet tempus ligula varius. Donec eu magna eros, a rhoncus orci. Nunc tincidunt sem eros, ut tincidunt sapien. Duis dui ante, faucibus laoreet vestibulum in, ornare ut lectus. Ut eu quam tellus. Aenean lectus diam, gravida sed eleifend ut, mattis vitae augue. Proin sit amet mauris nibh, id consequat mauris. Vivamus facilisis justo id nibh iaculis aliquet. Mauris ut ullamcorper dolor.
+                        
+                    Donec aliquet ante et nulla congue iaculis. Suspendisse nec sapien non turpis sollicitudin mollis auctor ultricies nibh. Fusce dictum elementum mattis. Aliquam erat volutpat. Mauris sed ipsum sit amet sapien volutpat mattis condimentum ut sapien. Suspendisse potenti. Nulla vitae purus lorem.	
+
+Post(4thMartinPost):
+    title:          4th Post
+    postedAt:       2013-05-15
+    author:         martin
+    tags:           
+                    - play
+                    - architecture
+    content:        >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium viverra justo, eu sagittis orci tincidunt et. Nullam a aliquet erat. Nullam pharetra eleifend ipsum, in faucibus nunc semper vitae. Aenean fringilla aliquam tortor id euismod. Quisque tincidunt neque rutrum lorem egestas sit amet tempus ligula varius. Donec eu magna eros, a rhoncus orci. Nunc tincidunt sem eros, ut tincidunt sapien. Duis dui ante, faucibus laoreet vestibulum in, ornare ut lectus. Ut eu quam tellus. Aenean lectus diam, gravida sed eleifend ut, mattis vitae augue. Proin sit amet mauris nibh, id consequat mauris. Vivamus facilisis justo id nibh iaculis aliquet. Mauris ut ullamcorper dolor.
+                        
+                    Donec aliquet ante et nulla congue iaculis. Suspendisse nec sapien non turpis sollicitudin mollis auctor ultricies nibh. Fusce dictum elementum mattis. Aliquam erat volutpat. Mauris sed ipsum sit amet sapien volutpat mattis condimentum ut sapien. Suspendisse potenti. Nulla vitae purus lorem.
+
+Post(3rdMartinPost):
+    title:          3rd Post
+    postedAt:       2013-05-14
+    author:         martin
+    tags:           
+                    - play
+                    - architecture
+    content:        >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium viverra justo, eu sagittis orci tincidunt et. Nullam a aliquet erat. Nullam pharetra eleifend ipsum, in faucibus nunc semper vitae. Aenean fringilla aliquam tortor id euismod. Quisque tincidunt neque rutrum lorem egestas sit amet tempus ligula varius. Donec eu magna eros, a rhoncus orci. Nunc tincidunt sem eros, ut tincidunt sapien. Duis dui ante, faucibus laoreet vestibulum in, ornare ut lectus. Ut eu quam tellus. Aenean lectus diam, gravida sed eleifend ut, mattis vitae augue. Proin sit amet mauris nibh, id consequat mauris. Vivamus facilisis justo id nibh iaculis aliquet. Mauris ut ullamcorper dolor.
+                        
+                    Donec aliquet ante et nulla congue iaculis. Suspendisse nec sapien non turpis sollicitudin mollis auctor ultricies nibh. Fusce dictum elementum mattis. Aliquam erat volutpat. Mauris sed ipsum sit amet sapien volutpat mattis condimentum ut sapien. Suspendisse potenti. Nulla vitae purus lorem.
+    
+Post(2ndMartinPost):
+    title:          2nd Post
+    postedAt:       2013-05-13
+    author:         martin
+    tags:           
+                    - play
+                    - architecture
+    content:        >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium viverra justo, eu sagittis orci tincidunt et. Nullam a aliquet erat. Nullam pharetra eleifend ipsum, in faucibus nunc semper vitae. Aenean fringilla aliquam tortor id euismod. Quisque tincidunt neque rutrum lorem egestas sit amet tempus ligula varius. Donec eu magna eros, a rhoncus orci. Nunc tincidunt sem eros, ut tincidunt sapien. Duis dui ante, faucibus laoreet vestibulum in, ornare ut lectus. Ut eu quam tellus. Aenean lectus diam, gravida sed eleifend ut, mattis vitae augue. Proin sit amet mauris nibh, id consequat mauris. Vivamus facilisis justo id nibh iaculis aliquet. Mauris ut ullamcorper dolor.
+                        
+                    Donec aliquet ante et nulla congue iaculis. Suspendisse nec sapien non turpis sollicitudin mollis auctor ultricies nibh. Fusce dictum elementum mattis. Aliquam erat volutpat. Mauris sed ipsum sit amet sapien volutpat mattis condimentum ut sapien. Suspendisse potenti. Nulla vitae purus lorem.
+
+Post(firstMartinPost):
+    title:          1st Post
+    postedAt:       2013-05-12
+    author:         martin
+    tags:           
+                    - play
+                    - architecture
+    content:        >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium viverra justo, eu sagittis orci tincidunt et. Nullam a aliquet erat. Nullam pharetra eleifend ipsum, in faucibus nunc semper vitae. Aenean fringilla aliquam tortor id euismod. Quisque tincidunt neque rutrum lorem egestas sit amet tempus ligula varius. Donec eu magna eros, a rhoncus orci. Nunc tincidunt sem eros, ut tincidunt sapien. Duis dui ante, faucibus laoreet vestibulum in, ornare ut lectus. Ut eu quam tellus. Aenean lectus diam, gravida sed eleifend ut, mattis vitae augue. Proin sit amet mauris nibh, id consequat mauris. Vivamus facilisis justo id nibh iaculis aliquet. Mauris ut ullamcorper dolor.
+                        
+                    Donec aliquet ante et nulla congue iaculis. Suspendisse nec sapien non turpis sollicitudin mollis auctor ultricies nibh. Fusce dictum elementum mattis. Aliquam erat volutpat. Mauris sed ipsum sit amet sapien volutpat mattis condimentum ut sapien. Suspendisse potenti. Nulla vitae purus lorem. 
+
+Post(firstBobPost):
+    title:          Another Blog Post
+    postedAt:       2009-06-11
+    author:         bob
+    tags:           
+                    - play
+                    - architecture
+    content:        >
+                    Donec aliquet ante et nulla congue iaculis. Suspendisse nec sapien non turpis sollicitudin mollis auctor ultricies nibh. Fusce dictum elementum mattis. Aliquam erat volutpat. Mauris sed ipsum sit amet sapien volutpat mattis condimentum ut sapien. Suspendisse potenti. Nulla vitae purus lorem.
+
+Post(secondBobPost):
+    title:          Just a test
+    postedAt:       2009-03-10
+    author:         bob
+    tags:           
+                    - test
+    content:        >
+                    Well, it's just a test.
+                    
+Post(jeffPost):
+    title:          The TEST
+    postedAt:       2009-06-06
+    author:         jeff
+    tags:           
+                    - play
+                    - architecture
+                    - mvc
+    content:        >
+                    Donec aliquet ante et nulla congue iaculis. Suspendisse nec sapien non turpis sollicitudin mollis auctor ultricies nibh. Fusce dictum elementum mattis. Aliquam erat volutpat. Mauris sed ipsum sit amet sapien volutpat mattis condimentum ut sapien. Suspendisse potenti. Nulla vitae purus lorem.
+                    
+Comment(c1):
+    author:         Guest
+    content:        >
+                    You are right !
+    postedAt:       2009-06-14
+    post:           firstBobPost
+    
+Comment(c2):
+    author:         Mike
+    content:        >
+                    I knew that ...
+    postedAt:       2009-06-15
+    post:           firstBobPost    
+    
+Comment(c3):
+    author:         Tom
+    content:        >
+                    This post is useless ?
+    postedAt:       2009-04-05
+    post:           secondBobPost    
